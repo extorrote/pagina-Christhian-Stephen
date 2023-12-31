@@ -1,0 +1,183 @@
+
+#body-color{
+    width:1550px;
+    height:790px;
+    background-color: rgb(55, 51, 51);
+    margin-top:-30px;
+    margin-left:-20px;
+    
+    margin-right:-20px;
+    
+}
+
+
+/*CAJA PEQUEÑA DEL FORMULARIO*/
+form {
+
+    display:flex;
+    display:block;
+    background-color: rgb(55, 51, 51);
+    width:700px;
+    height:500px;
+    margin-top:-700px;
+    
+    margin-left:390px;
+    box-shadow: 0px 0px 30px gray;
+    border-radius: 60px; 
+    margin-bottom:30px;
+   
+}
+
+form h1 {
+    color:orangered;
+    padding-left: 208px;
+    padding-top:45px;
+    font-family:Impact;
+    
+    
+}
+
+form li {
+    text-decoration: none;
+    display:block;
+  
+    
+}
+
+form li label{
+    display: block;
+    color:orangered;
+    padding-left: 200px;
+    padding-top: -10px;
+    
+    font-family: Impact;
+}
+
+form input{
+    display: block;
+    margin-left:350px;
+   margin-top: -20px;
+   margin-bottom: 12px;
+   background-color: #333;
+   color:white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 15px;
+
+}
+
+form textarea{
+    width:313px;
+    height:80px;
+    margin-top:10px;
+    margin-bottom:-75px;
+    margin-left:200px;
+    background-color: #333;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+
+[for="id_public"]{
+    display:block;
+    color:orangered;
+    margin-top: 82px;
+    margin-left:95px;
+    
+    font-family: Impact;
+}
+
+select {
+    display:block;
+    margin-top:-19px;
+    margin-left:370px;
+}
+
+[type="submit"]{
+    display:block;
+    margin-top:25px;
+    margin-left:325px;
+    width:60px;
+    height:40px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:orangered;
+}
+
+[class="mensaje-de-error"]{
+    color:red;
+    padding-left:250px;
+    padding-top:30px;
+}
+[class="error-minlength"]{
+    color:red;
+}
+
+
+#widget-boton-ver-articulos-form-class{
+    display:flex;
+    display:block;
+    background-color: rgb(55, 51, 51);
+    width:200px;
+    height:150px;
+    margin-top:-490px;
+    
+    margin-left:195px;
+    box-shadow: 0px 0px 30px gray;
+    border-radius: 60px; 
+    margin-bottom:30px;
+}
+#widget-boton-inicio-form-class{
+    display:flex;
+    display:block;
+    background-color: rgb(55, 51, 51);
+    width:200px;
+    height:150px;
+    margin-top:-355px;
+    float:right;
+    margin-right:206px;
+    box-shadow: 0px 0px 30px gray;
+    border-radius: 60px; 
+    margin-bottom:30px;
+}
+ #boton-inicio{
+    font-size:30px;
+    display:block;
+    text-decoration: none;
+    color:orangered;
+   margin-top:-125px;
+    padding-left: 255px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 0px 15px gray;
+   
+}
+
+#boton-ver-articulos{
+    font-size:30px;
+    display:block;
+    float:right;
+    text-decoration: none;
+    color:orangered;
+   margin-top:-295px;
+    padding-right:230px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0px 0px 15px gray;
+   
+}
+
+footer{
+    display:blocck;
+    background-color: rgb(55, 51, 51);
+    height:50px;
+    margin-top: 120px;
+    width:100%;
+    margin-left:-10px;
+    border-radius: 10px;
+}
+
+footer h4{
+
+    color:orangered;
+    padding-left:620px;
+    padding-top:10px;
+}

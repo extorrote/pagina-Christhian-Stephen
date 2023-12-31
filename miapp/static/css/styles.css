@@ -1,0 +1,1243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif,arial,helvetica;
+    text-decoration: none;
+  
+    
+}
+
+/*ESTA ES LA CAJA DONDE VA EL LOGO DE LA PAGINA*/
+header {
+    
+    width:1500px;
+    height:140px;
+    margin-right: -30px;
+    margin-left: -1px;
+}
+
+body{
+    background-color: white;
+    
+   
+}
+
+
+/*########################################################*/
+
+
+
+
+
+
+
+
+
+
+/*ESTA ES LA BARRA DE NAVEGACION DONDE VOY A PONER LOS BOTONNES*/
+nav{
+    width: 1500px;
+    float:left;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #04090C ;
+    /*border: 1px solid #3333;*/
+    margin-bottom: 30px;
+   
+}
+
+
+
+
+/*ESTAS SON LAS LETRAS DE MIS BOTONES ACA LE ESTOY QUITANDO LOS ESTILOS QUE TRAE POR DEFECTO*/
+nav ul{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/*AQUI ESTOY PONIENDO UN BOTON AL LADO DE OTRO, NORMALMENTE ME SALIAN PARA HABAJO.*/
+nav ul li{
+    line-height: 40px;
+    float: left;
+}
+
+/*AQUI LE VOY A DAR DISEÑO A LAS LETRAS DE MIS BOTONES*/
+nav ul li a{
+ display: block;
+ padding-left: 15px;
+ padding-right: 15px;
+ color: gray;
+ 
+}
+nav ul li a:hover{
+    background:#2da66d;
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: white;
+  box-shadow: 1px 10px 15px  #03E7FB;
+  
+}
+/*ESTA ES LA BARRITA NEGRA QUE VA EN MEDIO DE LOS BOTONES Y EL COLOR VERGAS*/
+ .barrita{
+    display:block;
+    width:1504px;
+    background-color:#04090C;
+    height:8px;
+    float:left;
+    margin-top:-8px;
+
+}
+/*BARRITA DEBAJO DE LOS BOTONES PARA QUE EL hover SE VEA MAS VACANO*/
+#color-vergas{
+    padding-bottom: 35px;
+   
+    margin-bottom:900px;
+    width:1516px;
+    height:20px;
+    background-color: black;
+    }
+
+#inicio {
+    background-color: white;
+    padding-right: 5px;
+    margin-top: 18px;  
+}
+
+
+#inicio-texto {
+    width:95%;
+    height: 30px;
+    padding-left: 24px;
+    margin-left:10px;
+    padding-top:10px;
+    padding-bottom:25px;
+    border-radius: 30px;
+    box-shadow:50px;
+    background-color: white; 
+   
+}
+
+#inicio-texto h1{
+    font-size: 20px;
+    padding-left:350px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+    color: black;
+}
+
+/*CON ESTO LE ESTOY DANDO EL DISEÑO REDONDEADO AL CONTENIDO DE LA PAGINA*/
+#content{
+    width: 1212px;
+    min-height: 930px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    margin-top: 135px
+}
+
+.box{
+    width:95%;
+    min-height:950px;
+    padding: -20px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    margin-top: -610px;
+    box-shadow: 0px 0px 20px #444 ;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+    
+}
+
+/*#####################################  ASIDES LEFT ############################################*/
+#aside {
+    display: block;
+    padding-top: -13%;
+    margin-top: 137px;
+    margin-bottom:5px;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    background-color:  black;
+    border: 1px solid black;
+}
+
+#aside  .widget h3{
+   font-size: 13px;
+   padding-left:18px;
+   padding-top: 35px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+
+}
+#aside .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: gray;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:25px;
+  
+}
+
+
+#aside2 {
+    display: block;
+    padding-top: -15%;
+    margin-top: -4px;
+    margin-bottom: -32px;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+#aside2  .widget a { 
+    text-decoration: none;
+    display:block;
+   font-size: 18px;
+   padding-left:20px;
+   padding-top: 35px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+#aside2 .widget a:hover{ 
+  box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: #ddd;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:17px;
+  
+}
+
+
+#aside3 {
+    display: block;
+    padding-top: -25%;
+    margin-top: 34px;
+    margin-bottom: -59px;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    background-color:   black;
+    border: 1px solid black;
+}
+
+#aside3  [class="widget"] a{
+    display: block;
+   font-size: 22px;
+   padding-left:18px;
+   padding-top: 18px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+#aside3 .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: #ddd;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:17px;
+  
+}
+
+#aside4 {
+    display: block;
+    padding-top: -35%;
+    margin-top: 61px;
+    background-color:black;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    border: 1px solid black;
+   
+}
+
+
+#aside4  [class="widget"] a{
+    display:block;
+   font-size: 30px;
+   padding-left:30px;
+   padding-top: 24px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+#aside4 .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: white;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:17px;
+  
+}
+
+
+
+/*#################################################################################*/
+
+/*##################################  ASIDES RIGHT###############################################*/
+
+#aside-right1 {
+    display: block;
+   margin-right: 55px;
+    margin-top: -404px;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid black;
+    float:right;
+    
+}
+
+#aside-right1  .widget h3{
+   font-size: 15px;
+   padding-left:18px;
+   padding-top: 35px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+#aside-right1 .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: #ddd;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:20px;
+  
+}
+
+#aside-right2 {
+    display: block;
+    margin-right: 55px;
+    padding-top: -15%;
+    margin-top: -300px;
+    margin-bottom: -32px;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    background-color:  black;
+    border: 1px solid black;
+    float:right;
+}
+
+#aside-right2  [class="widget"] a{
+    display: block;
+   font-size: 20px;
+   padding-left:18px;
+   padding-top: 18px;
+   margin-top: 5px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+
+#aside-right2 .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: #ddd;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:20px;
+  
+}
+#aside-right3  {
+    display: block;
+    margin-right: 55px;
+    padding-top: -25%;
+    margin-top: -196px;
+    margin-bottom: -59px;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    background-color:  black;
+    border: 1px solid black;
+    float:right;
+}
+
+#aside-right3  [class="widget"] a{
+    display:block;
+   font-size: 15px;
+   padding-left:28px;
+   padding-top: 38px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+#aside-right3 .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: #ddd;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:20px;
+  
+}
+
+#aside-right4 {
+    display: block;
+    margin-right: 55px;
+    padding-top: -35%;
+    margin-top: -92px;
+    background-color:  black;
+    width:9.5%;
+    height:100px;
+    border-radius: 30px;
+    border: 1px solid black;
+    float:right;
+   
+}
+
+#aside-right4  [class="widget"] a{
+    display:block;
+   font-size: 15px;
+   padding-left:35px;
+   padding-top: 35px;
+   color:gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: 0px 1px 0px white;
+}
+
+#aside-right4 .widget h3:hover{
+    
+    box-shadow: 0px 0px 5px #444 inset;/*ESTO DA UNA SOMBRA EN EL MARGEN DEL FONDO DE LAS LETRAS Y SE SELECCIONA,  X- I- DIFUMINADO- Y COLOR inset es para que sea adentro de la caja*/
+  color: #ddd;
+  box-shadow: 1px 5px 15px  #03E7FB inset;
+  border-radius: 40px;
+  margin-top:20px;
+  
+}
+
+/*#################################################################################*/
+
+
+
+
+
+#mundo-texto {
+    width:80%;
+    height: 30px;
+    margin-left:20px;
+    margin-top:20px;
+    padding-left: 17px;
+    padding-top:10px;
+    padding-bottom:50px;
+    border-radius: 30px;
+    box-shadow:50px;
+    background-color:white; 
+    color:darkslategray;
+}
+
+#mexico-texto{
+    width:95%;
+    height: 650px;
+    margin-left:10px;
+    margin-top:10px;
+    padding-left: 17px;
+    padding-top:-20px;
+    padding-bottom:50px;
+    border-radius: 30px;
+    box-shadow:50px;
+    background-color:white; 
+    color:darkslategray;
+}
+
+#ecuador-texto{
+    width:95%;
+    height: 320px;
+    margin-left:10px;
+    margin-top:10px;
+    padding-left: 17px;
+    padding-top:-20px;
+    padding-bottom:50px;
+    border-radius: 30px;
+    box-shadow:50px;
+    background-color:white; 
+    color:darkslategray;
+}
+
+#ecuador-texto2{
+    width:95%;
+    height: 340px;
+    margin-left:10px;
+    margin-top:-40px;
+    padding-left: 17px;
+    padding-top:-20px;
+    padding-bottom:50px;
+    border-radius: 30px;
+    box-shadow:50px;
+    background-color:white; 
+    color:darkslategray;
+}
+
+
+
+/*ASI CENTRE LA IMAGEN*/
+#ecuador {
+   
+    padding-left: 37%;
+    padding-top:-190%;
+    padding-bottom:-130;
+}
+
+/*ASI CENTRE LA IMAGEN*/
+#mexico {
+   
+    padding-left: 36%;
+    
+  
+
+}
+
+/*ASI CENTRE LA IMAGEN*/
+#colombia {
+    background-color: white;
+    padding-left: 33%;
+    margin-top: 15px;  
+    margin-left:15px;
+    width:55%;
+}
+
+#titulo_mexico{
+    padding-left:17%;
+    padding-right:11%;
+}
+
+
+
+
+#content h1{
+    text-decoration: none;
+    font:Algerian;
+}
+
+#video2 {
+    display:block;
+    margin-left:22px;
+    margin-top:38px;  
+    background-color: black; 
+}
+
+
+/*ESTA ES LA CAJA QUE ENCIERRA TODO EL CONTENIDO DE ADRESS Y SELECT*/
+#mini-caja-general{
+    width:450px;
+    height:530px;
+    margin-top:10px;
+    margin-left:340px;
+    padding-right: 24px;
+    padding-top:40px;
+    background-color: rgb(8, 55, 71);
+    border-radius: 50px;
+    box-shadow: 0px 0px 40px gray ;
+   
+}
+
+#caja-general{
+    display:block;
+    height:1050px;
+    width:100%;
+    margin-top:-10px;
+    background-color:  rgb(8, 55, 71);
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px gray ;
+   
+}
+
+
+/*################################## FORM crear Articulo ###########################################################*/
+
+#enviar-form{
+    display:block;
+    width:100%;
+    height:1200px;
+    background-color: black;
+    border-radius: 50px;
+    box-shadow: 0px 10px 50px gray;
+}
+/*CAJA PEQUEÑA DEL FORMULARIO*/
+form {
+
+    display:flex;
+    display:block;
+    background-color:black;
+    width:700px;
+    height:500px;
+    margin-top: -40px;
+    margin-left:226px;
+    box-shadow: 0px 10px 40px white;
+    border-radius: 60px; 
+   
+}
+
+form h1{
+ display:block;
+ color:orangered;
+ padding-left: 223px;
+ padding-top: 15px;
+ padding-bottom: 30px;;
+ font-size: 30px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* TEXTO crear pedido formulario*/
+
+
+[for="id"]{
+    display:block;
+    float:top;
+   
+    margin-bottom:-20px;
+    padding-left:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(99, 98, 96);
+    text-shadow: 0px 0px 10px black 
+
+}
+
+ [for="Title"]{
+    display:block;
+    float:top;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding-left:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(99, 98, 96);
+    text-shadow: 0px 0px 10px black    
+}
+
+[for="Content"]{
+    display:block;
+    float:top;
+    margin-top: 27px;
+    padding-left:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(99, 98, 96);
+    text-shadow: 0px 0px 10px black    
+}
+
+[for="Street"]{
+    display:block;
+    float:top;
+    margin-top: 27px;
+    padding-left:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(99, 98, 96);
+    text-shadow: 0px 0px 10px black    
+}
+
+
+[for="House_number"]{
+    display:block;
+    float:top;
+    margin-top: 20px;
+    padding-left:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(99, 98, 96);
+    text-shadow: 0px 0px 10px black    
+}
+
+
+[for="House_Description"]{
+    display:block;
+    float:top;
+    margin-top: 30px;
+    padding-left:150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(99, 98, 96);
+    text-shadow: 0px 0px 10px black    
+}
+
+
+/*############################################################################### INPUTS  CREAR PEDIDO CON FORMULARIO*/
+
+#id{
+    display:block;
+    width:250px;
+    height:30px;
+    margin-top: 5px;
+    margin-left:300px;
+    background-color: #444;  
+    font-size: 15px; 
+    border-radius: 5px; 
+    color:white;
+}
+[name="Title"]{
+    display:block;
+    width:250px;
+    margin-top: -45px;
+    margin-left:300px;
+    background-color: #444;  
+    font-size: 20px; 
+    border-radius: 5px; 
+    color:white;
+        
+}
+[placeholder="type the Title of Your order."]{
+    color:white;
+    font-size: 13px;
+    width:250px;
+    height:30px;
+}
+
+
+[name="Content"]{
+    display:block;
+    float:top;
+    margin-top: -24px;
+    margin-left:300px;
+    height:60px;
+    width:250px;
+    height:30px;
+    background-color: #444; 
+    font-size: 13px; 
+    border-radius: 5px; 
+    color:white;          
+}
+[placeholder="type the Content of Your order."]{
+    color:white;
+    font-size: 10px;
+    width:250px;
+    height:30px;
+}
+
+[name="Street"]{
+    display:block;
+    float:top;
+    margin-top: -22px;
+    margin-left:300px;
+    background-color: #444;  
+    font-size: 13px;   
+    width:250px; 
+    height:30px;
+    border-radius: 5px; 
+    color:white;
+}
+
+
+[name="House_number"]{
+    display:block;
+    float:top;
+    margin-top: -20px;
+    margin-left:300px;
+    background-color: #444;  
+    font-size: 13px;
+    width:250px;  
+    height:30px; 
+    border-radius: 5px;   
+    color:white;
+    
+}
+
+
+[name="House_Description"]{
+    display:block;
+    float:top;
+    margin-top: -30px;
+   height:80px;
+   width:250px;
+   margin-left:300px;
+    font-size: 13px;
+    background-color: #444;  
+    width:250px; 
+    border-radius: 5px; 
+    color:white;
+}
+
+[for="public"]{
+    color:orangered;
+    font-family: Impact;
+    padding-left: 300px;
+    padding-top: 100px;
+    margin-right: 5px;
+    width:60px;
+    font-size: 20px;
+    border-radius: 5px; 
+
+}
+
+
+[type="submit"]{
+    margin-top:20px;
+    margin-left: 40px;
+    width:70px;
+    height:30px;
+    background-color:black;
+    color: orange;
+    font-family:Impact;
+    border-radius: 5px; 
+
+}
+
+
+
+/*===================================================================================*/
+
+
+
+#years{
+    border-radius: 50px;
+    width: 100%;
+    height: 1000px;
+    background-color: orange;
+    padding-top:120px;
+    padding-bottom: -20px;
+}
+#years h1{
+    color:rgb(8, 55, 71);
+    margin-top: -80px;
+    margin-left:15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#years li{
+    margin-top: 10px;
+    margin-left:35px;
+    color: rgb(8, 55, 71);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+/*VER TODOS LOS ARTICULOS #######################################*/
+#ver-articulos{
+    width:100%;
+    height:auto;
+     border-radius: 50px;
+    
+    background-color: black;
+    box-shadow: 10px 20px 20px gray;
+}
+    
+#ver-articulos  h1{
+    padding-top: 30px;
+    
+    color:orangered;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 170px;
+    font-size: 50px;
+    text-shadow: 0px 0px 70px white;
+}
+[class="message-flsh"]{
+    color:red;
+    padding-left:50px;
+}
+#ver-articulos strong{
+    color:#444;
+}
+
+#ver-articulos ul{
+    display:block;
+    padding-left: 20px;
+    font-family: arial;
+   color:lightseagreen;
+   font-size: 12px;
+}
+
+#ver-articulos ul h6{
+    display:block;
+    padding-left: 20px;
+    font-family: arial;
+   color:gray;
+   font-size: 12px;
+}
+
+#ver-articulos ul hr{
+    display:block;
+    width:300px;
+   margin-bottom:5px;
+   margin-top:5px;
+   background-color: lightseagreen;
+   font-size: 12px;
+}
+#ver-articulos a{
+    text-decoration: none;
+    
+}
+
+#ver-articulos  a{
+    display:block;
+    color: orangered;
+    font-size: 12px;
+    padding-bottom:5px;
+    padding-left:3px;
+    padding-top:2px;
+}
+
+#widget-boton-eliminar{
+    width:40px;
+    height:20px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50px;
+    
+}
+
+[class="message-flash"]{
+    display:block;
+    font-family: arial;
+    color:green;
+    font-size: 15px;
+    text-align: top;
+    
+
+    
+}
+/*###################################################################################################
+
+/*########################################################CONTACTO#####################################*/
+/*====================================================================================================================================================================*/
+
+#caja-form-contacto{
+    
+    display:block;
+    background-color: lightskyblue;
+    width:700px;
+    height:500px;
+    margin-top: -40px;
+    margin-left:226px;
+    box-shadow: 0px 10px 40px white;
+    border-radius: 60px; 
+    
+}
+
+[id="titulo-contacto"]{
+    display:block;
+    font-size:18px;
+    color:gray;
+    margin-left:93px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     padding-top: 10px ;
+     text-shadow: 0px 10px 20px white; 
+    }
+
+
+    [id="titulo2-contacto"]{
+        display:block;
+        font-size:10px;
+        color:gray;
+        margin-left:335px;
+        font-family: Impact;
+         padding-top: -1px ;
+         text-shadow: 0px 10px 20px white; 
+        }
+
+        [id="titulo3-contacto"]{
+            display:block;
+            color:gray;
+            float:top;
+            padding-top: 10px;
+            padding-left:359px;
+            font-family: arial;
+            font-size: 5px;
+            }
+
+
+
+/*TEXT0*/
+[for="icompany"]{
+    display:block;
+    color:orangered;
+    float:top;
+    margin-top:15px;
+   
+    padding-left:245px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 20px white; 
+    
+}
+
+/*INPUT*/
+[id="icompany"]{
+    display:block;
+    width:200px;
+    height:20px;
+    float:top;
+    margin-top: -20px;
+    margin-left:375px;
+    background-color: GRAY;
+    color:white;
+  
+}
+
+/*TEXTO*/
+[for="iname"]{
+    display:block;
+    color:orangered;
+    float:top;
+    margin-top:15px;
+   
+    padding-left:258px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 20px white; 
+    
+}
+
+/*INPUT*/
+[id="iname"]{
+    display:block;
+    width:200px;
+    height:20px;
+    float:top;
+    margin-top: -20px;
+    margin-left:375px;
+    background-color: GRAY;
+    color:white;
+  
+}
+
+/*TEXTO*/
+[for="iemail"]{
+    display:block;
+    color:orangered;
+    float:top;
+    margin-top:15px;
+    padding-left:270px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 20px white; 
+    
+}
+
+/*INPUT*/
+[id="iemail"]{
+    display:block;
+    width:200px;
+    height:20px;
+    float:top;
+    margin-top: -20px;
+    margin-left:375px;
+    background-color: GRAY;
+    color:white;
+  
+}
+
+/*TEXTO*/
+[for="message"]{
+    display:block;
+    color:orangered;
+    float:top;
+    margin-top:15px;
+    padding-left:258px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 10px 20px white; 
+    
+}
+
+/*INPUT*/
+[id="message"]{
+    display:block;
+    
+    width:200px;
+    height:50px;
+    float:top;
+    margin-top: -20px;
+    margin-left:375px;
+    background-color: GRAY;
+    color:white;
+  
+}
+
+[id="send-email"]{
+    display:inline-block;
+    background-color: white;
+    color:orangered;
+    width:40px;
+    height:20px;
+    
+}
+
+
+
+
+
+
+/*====================================================================================================================================================================*/
+
+
+
+/*MOSTRAR UN ARTICULO*/
+
+#caja-principal-ver-articulo{
+   display:block;
+   width:100%;
+   height:1200px;
+   background-color: black;
+   border-radius: 50px;
+   box-shadow: 0px 0px 20px black ;
+}
+
+#caja-principal-ver-articulo h1{
+    font-family: arial;
+    padding-top:20px;
+    padding-left:80px;
+    color: rgb(52, 52, 125);
+} 
+
+#caja-principal-ver-articulo hr{
+  display:block; 
+width:300px;
+height:3px;
+background-color:rgb(69, 69, 216);
+margin-left:80px;
+margin-bottom:30px;
+
+} 
+
+#caja-principal-ver-articulo strong{
+    display:block;
+    text-decoration: none;
+    padding-top:2px;
+    padding-left:84px;
+    margin-bottom: -5px;
+    color:gray;
+}
+
+#caja-principal-ver-articulo h2{
+    display:block;
+    font-family: arial;
+    
+    padding-left:80px;
+    margin-bottom: -5px;
+    color:rgb(52, 52, 125);
+}
+
+
+#send-email [type="submit"]{
+    background-color:#59987b;
+    color: white;
+    width:110px;
+    height:50px;
+    padding-left:5px;
+    margin-left:30px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px black ;
+    
+   }
+/*#################################################################################################*/
+
+/*ESTA ES LA IMAGEN DE FACEBOOK*/
+
+
+#facebook-logo{
+    padding-left: 450px;
+    padding-top:350px;
+   
+}
+
+
+/*ENLASE FACEBOOK*/
+
+
+#facebook-link{
+    
+    text-decoration: none;
+    margin-top: -45px;
+    
+    margin-left:-100px;
+}
+
+#facebook-link a{
+    display:block;
+    color: transparent;
+    font-size:45px;
+    width:30px;
+    height:20px;
+    margin-left: 550px;
+    padding-left:3px;
+    
+  
+    
+   
+}
+
+#instagram img{
+    margin-left: 520px;
+    margin-top: -28px;
+    padding-top:3px;
+    width:42px;
+    height:42px;
+}
+
+
+#istargram-link{
+    
+    text-decoration: none;
+    margin-top: -45px;
+  
+    margin-left:-80px;
+}
+
+#istargram-link a{
+    display:block;
+    color: transparent;
+    font-size:45px;
+    width:30px;
+    height:20px;
+    margin-left: 545px;
+    padding-left:55px;
+    padding-top: 2px;
+   
+   
+   
+}
+
+#whatsapp img{
+    margin-left: 570px;
+    margin-top: -20px;
+    padding-top:0.5px;
+    width:42px;
+    height:42px;
+}
+
+
+#whatsapp-link{
+    
+    text-decoration: none;
+    margin-top: -50px;
+    margin-left:-3px;
+   
+}
+
+#whatsapp-link a{
+    display:block;
+    color: transparent;
+    font-size:45px;
+    width:30px;
+    height:20px;  
+    margin-left: 570px; 
+}
+
+
+
+
+ footer {
+    display:block;
+    display:flex;
+    background: #1D114F;
+    width: 100% ;
+    height: 30px;
+}
+footer h4{
+    display: block;
+    color: gray;
+    margin-left: 38%;
+    padding-top: 7px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
